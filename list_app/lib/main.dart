@@ -11,9 +11,7 @@ class ListApp extends StatelessWidget {
           appBar: AppBar(
             title: Text("List")
           ),
-          body: Center(
-            child: HomeWidget(),
-          ),
+          body: HomeWidget()
         )
       );
     }
@@ -22,6 +20,8 @@ class ListApp extends StatelessWidget {
 class HomeWidget extends StatelessWidget {
   @override
     Widget build(BuildContext context) {
-      return Text("Hello, World!");
+      return Center(
+        child: Text("Hello, World!", style: TextStyle(fontSize: 36.0))
+      );
     }
 }
