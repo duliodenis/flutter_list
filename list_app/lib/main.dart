@@ -8,6 +8,9 @@ class ListApp extends StatelessWidget {
       return MaterialApp(
         title: "List",
         home: Scaffold(
+          appBar: AppBar(
+            title: Text("List")
+          ),
           body: Center(
             child: Text("Hello, World!"),
           ),
