@@ -12,9 +12,16 @@ class ListApp extends StatelessWidget {
             title: Text("List")
           ),
           body: Center(
-            child: Text("Hello, World!"),
+            child: HomeWidget(),
           ),
         )
       );
+    }
+}
+
+class HomeWidget extends StatelessWidget {
+  @override
+    Widget build(BuildContext context) {
+      return Text("Hello, World!");
     }
 }
