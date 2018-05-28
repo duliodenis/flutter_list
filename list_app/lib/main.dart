@@ -7,8 +7,10 @@ class ListApp extends StatelessWidget {
     Widget build(BuildContext context) {
       return MaterialApp(
         title: "List",
-        home: Center(
-          child: Text("Hello, World!"),
+        home: Scaffold(
+          body: Center(
+            child: Text("Hello, World!"),
+          ),
         )
       );
     }
